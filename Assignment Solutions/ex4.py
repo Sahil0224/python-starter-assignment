@@ -3,11 +3,10 @@ def main():
     inputSplit = input.split(' ')
     counter = 0
     for x in inputSplit:
-        if (x == "Python"):
+        if x == "Python":
             counter = counter + 1
 
     print(counter)
-
 
 
 if __name__ == "__main__":

@@ -1,7 +1,7 @@
 def main():
     number = (input("Enter list of numbers: "))
     numberList = number.split(',')
-    if (numberList[0] == numberList[-1]):
+    if numberList[0] == numberList[-1]:
         print(True)
     else:
         print(False)
